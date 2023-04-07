@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+body {
+    margin: 0;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 70vh;
+    overflow: hidden;
+    position: relative;
+    object-fit: cover;
+    margin-bottom: 2rem;
+}
+
+.header-image {
+    width: 100%;
+    position: absolute;
+    top: -20vh;
+    z-index: -1;
+    /* image mage takto */
+}
+
+.header-image img {
+    width: 100%;
+}
+
+.nav {
+    display: flex; /*eka line mdhe gheto */
+    justify-content: space-between; /* equally space deto anicontent ahe to left & right cornerla gheto */
+    align-items: center;
+    color: white;
+    font-size: 1rem;
+    margin: 0 200px;
+}
+
+.nav-bar {
+    list-style: none;
+    font-weight: lighter;
+    display: flex;
+    gap: 1.5rem; /* equal space deto */
+}
+
+.head {
+    display: flex;
+    flex-direction: column; /* flexible items are displayed vertically */
+    justify-content: center;
+    margin-top: 7vh;
+    align-items: center;
+}
+
+.logo {
+    width: 20vw;
+}
+
+.head h3 {
+    font-size: 2.1rem;
+    color: whitesmoke;
+    font-weight: 400;
+}
+
+.search {
+    display: flex;
+    width: 48vw;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background: white;
+    padding: 2px 3px
+}
+
+.search .search-item {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.search .search-item p {
+    color: gray;
+    border-right: 1px solide gray;
+    font-size: 16px;
+    margin-right: 10px;
+    padding-left: 10px;
+}
+
+.search .search-item input {
+    outline: none;
+    border: none;
+    width: 200%;
+    padding-left: 10px;
+    font-size: 16px;
+}
+
+.search .search-item:first-child {
+    width: 30%;
+    color: rgb(255, 126, 139);
+}
+
+.search .search-item:last-child {
+    width: 70%;
+    color: gray;
+}
+
+.section-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.section-1 .section-1-item{
+    position: relative;
+    width: 23rem;
+    height: 17rem;
+    margin: 3px 6px;
+    overflow: hidden;
+    background: white;
+    border-radius: 20px;
+    border: 1px solid rgba(228, 228, 228, 0.838);
+}
+
+.section-1 .section-1-item img{
+    width: 100%;
+    border: 1px solid rgba(228, 228, 228, 0.838);
+    z-index: -1;
+    object-fit: cover;
+}
+.section-1 .section-1-item .item-details{
+    position: absolute;
+    bottom: 0px;
+    align-items: center;
+    background: white;
+    width: 100%;
+    height: 27%;
+    z-index: 2;
+}
+
+.section-1 .section-1-item .item-details p{
+    margin-left: 1rem;
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 0.7px;
+    margin-top: 10px;
+}
+
+.section-1 .section-1-item .item-details .section-1-para{
+    margin-top: -19px;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.section-2{
+    width: 1130px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.section-2-heading {
+    font-size: 2.5rem;
+    font-weight: 300;
+    line-height: 2;
+}
+
+.section-2 .section-2-container .section-2-items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+}
+
+.section-2 .section-2-container .section-2-items .section-2-item{
+    width: 100%;
+    max-width: 26%;
+    margin-bottom: 20px;
+}
+
+.section-2-item {
+   border-radius: 10px;
+   box-shadow: 0 2px 4px rgb(236,236,236);
+   padding: 20px;
+}
+
+.section-2-item .item-head{
+    font-size: 1.2rem;
+    color: rgb(28, 28, 28);
+    margin: 0;
+}
+.section-3{
+    height: 620px;
+    background-color: rgb(255, 251, 247);
+}
+
+.section-3-container{
+    width: 1080px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-3-img{
+    width: 40%;
+}
+.section-3-img img {
+    width: 400px;
+}
+.section-3-content p{
+    font-size: 2.5rem;
+    font-weight: lighter;
+    margin-bottom: 15px;
+    margin: 0;
+}
+.section-3-download img{
+    width: 40%;
+}
